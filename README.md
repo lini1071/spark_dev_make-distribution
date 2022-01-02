@@ -3,7 +3,8 @@ Converted script for making distribution of Apache Spark
 
 Please understand that maybe codes are little dizzy and not cleaned. This file is "not official"(only for my personal interest) and just converted copy of original bash script on official Apache Spark repository. You can use and modify it for your own but please do not commit this to official repository unless you're a regular contributor on the repository because this script is not assured to work fine.
 
-Tested essential and simple cases on: Microsoft Windows 10 Pro (10.0.19044.1415), Apache Spark 3.2.0 (Source), tgz packing
+Tested essential and simple cases on: Microsoft Windows 10 Pro (10.0.19044.1415), Apache Spark 3.2.0 (Source), tgz packing.
+
 Python3 case is scheduled.
 
 JDK must be installed and JAVA_HOME environment variable must be set properly.
