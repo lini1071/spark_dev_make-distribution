@@ -5,7 +5,7 @@ Please understand that maybe codes are little dizzy and not cleaned. This file i
 
 Tested essential and simple cases on: Microsoft Windows 10 Pro (10.0.19044.1415), Apache Spark 3.2.0 (Source), tgz packing.
 
-Python3 case is scheduled.
+Python3 test case is scheduled.
 
 JDK must be installed and JAVA_HOME environment variable must be set properly.
 Locate this file to $SPARK_HOME/dev before calling it. Use Apache Maven 3.8.1 or older version for avoiding exception java.lang.NoSuchMethodError: org.fusesource.jansi.AnsiConsole.wrapOutputStream
