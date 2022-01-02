@@ -114,7 +114,7 @@ if (!$env:JAVA_HOME) {
   exit -1
 }
 
-Get-Command -Name git -ErrorAction SilentlyContinue
+Get-Command -Name git -ErrorAction SilentlyContinue > $null
 if ($?) {
     $GITREV = $(git rev-parse --short HEAD 2 > $null)
     if ($GITREV) {
@@ -123,7 +123,7 @@ if ($?) {
     $GITREV = $null
 }
 
-Get-Command -Name $MVN -ErrorAction SilentlyContinue
+Get-Command -Name $MVN -ErrorAction SilentlyContinue > $null
 if (!$?) {
     Write-Host "Could not locate Maven command: '$MVN'."
     Write-Host "Specify the Maven command with the --mvn flag"
